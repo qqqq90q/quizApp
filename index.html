@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:700&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <h1>US State Capitol Quiz</h1>
+      <p>Think you know the US state capitols well, take this quiz and see how you do!</p>
+    <!-- Question Page -->
+            <form role="form" action="quiz" accept-charset="UTF-8" class="quiz">
+        <fieldset>
+          <legend>
+            <p>What is the state capitol of Maine?</p> 
+           </legend>
+              <ol type="A">
+                <li><label for="answerA">"Bangor."</label><option id="answerA" name="answer" value="0"></li>
+                <li><label for="answerB">"Portland."</label><option id="answerB" name="answer" value="1"></li>
+                <li><label for="answerC">"Augusta."</label><option id="answerC" name="answer" value="2"></li>
+                <li><label for="answerD">"StockBridge"</label><option id="answerD" name="answer" value="3"></li>
+              </ol>
+              <input type="submit">
+        </fieldset>
+      </form>
+      
+      <h2>Sorry, but you are not correct.</h2>
+      <p>The Correct answer was C</p>
+      <h2>Congrats, the answer is correct.
+        <br>
+        <button id='nextQuestion'>Next </button>
+      <h2>Congrats! You finished the quiz</h2>
+      <p>You really know your stuff!</p>
+      <p>Eh, study and come back!</p>
+        <button id='restart'>Restart</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
